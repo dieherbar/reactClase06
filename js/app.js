@@ -26,14 +26,14 @@ function RenderInputs(type){
 inputFiltrados.forEach(element => RenderInputs(element));
 
 ////////tarea clase06////////
-function renderVideo(){
-    let myVideo = new Video("video");  //"https://vimeo.com/783453912" https://www.youtube.com/embed/4z9TulgGIZo
-    myVideo.render();
-}
-let myVideoJs = renderVideo("video","resources/dolbycanyon.mp4");
-//myVideoJs.render();
+// function renderVideo(){
+//     let myVideo = new Video("video","dolbycanyon.mp4");  //"https://vimeo.com/783453912" https://www.youtube.com/embed/4z9TulgGIZo
+//     myVideo.render();
+// }
+//let myVideoJs = renderVideo("video","dolbycanyon.mp4");
+
+const myVideoJs02 = new Video("video","dolbycanyon.mp4");
+myVideoJs02.render();
 
 const myIframe = new Iframe("iframe","https://www.youtube.com/embed/gAuB15tqSKk");
 myIframe.render();
-//new Video("video");
-//myVideoJs.render();

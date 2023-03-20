@@ -5,7 +5,7 @@ export default class Video {
     }
     render() {
         let myApp = document.getElementById(this.parentId);
-        const myVideo = myApp.innerHTML + "<video width='320' height='320' controls> <source src='./"+this.source+"' type='video/mp4'></video>";
+        const myVideo = myApp.innerHTML + "<video width='320' height='320' controls> <source src='./resources/"+this.source+"' type='video/mp4'></video>";
         myApp.innerHTML = myVideo;
     }
 }
